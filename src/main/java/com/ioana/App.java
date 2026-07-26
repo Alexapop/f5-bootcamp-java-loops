@@ -1,0 +1,19 @@
+package com.ioana;
+
+/**
+ * Hello world!
+ */
+public final class App {
+    private App() {
+    }
+
+    /**
+     * Says hello to the world.
+     * 
+     * @param args The arguments of the program.
+     */
+    public static void main(String[] args) {
+        MultiplicationTable table = new MultiplicationTable(5);
+        table.createTable();
+    }
+}
